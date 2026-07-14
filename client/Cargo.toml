@@ -1,0 +1,6 @@
+[package]
+name = "client"
+edition.workspace = true
+
+[dependencies]
+shared.workspace = true

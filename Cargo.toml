@@ -1,0 +1,15 @@
+[workspace]
+members = ["client", "server", "shared"]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+
+[workspace.dependencies]
+argon2 = "0.5.3"
+chacha20poly1305 = "0.10.0"
+hpke = "0.14.0"
+shared = { path = "shared" }
+thiserror = "2.0.18"
+wincode = "0.5.5"
+zeroize = "1.9.0"

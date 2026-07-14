@@ -1,0 +1,6 @@
+[package]
+name = "server"
+edition.workspace = true
+
+[dependencies]
+shared.workspace = true
